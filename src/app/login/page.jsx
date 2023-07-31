@@ -15,7 +15,7 @@ const page = () => {
       </div>
     );
   if (session.status === "unauthenticated")
-    return <button onClick={() => signIn("google")}>Login With google</button>;
+    return <button onClick={() => signIn("google")}>Login With Google</button>;
 
   
   return <div>Login Page</div>;
